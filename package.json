@@ -1,0 +1,16 @@
+{
+  "name": "iotdatastore",
+  "version": "1.0.0",
+  "description": "IoT adatok fogadás\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C MQTT protokokkol keresztüli fogadására és mongodb-be rö\u001b[D\u001b[D\u001b[D történő rögzítésére szolgáló szolgáltatás",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Péter",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.13",
+    "mqtt": "^2.18.8"
+  }
+}
